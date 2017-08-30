@@ -27,3 +27,7 @@ Route::get('blog', function () {
 Route::get('shop', function () {
     return "Shop Page";
 });
+
+Route::get('shop2', function () {
+    return "Shop 2 Page";
+});
