@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('test', function () {
     return "Test Page";
 });
+
+Route::get('blog', function () {
+    return "Blog Page";
+});
