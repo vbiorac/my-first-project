@@ -23,3 +23,7 @@ Route::get('test', function () {
 Route::get('blog', function () {
     return "Blog Page";
 });
+
+Route::get('shop', function () {
+    return "Shop Page";
+});
